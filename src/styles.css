@@ -1,12 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import './app/vendor/semantic.min.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 .ui.menu .item img.logo {
   margin-right: 1.5em;
 }
 
 form.ui.segment.form {
-  background-color: #F1F9FF;
+  background-color: #F5F5F5;
   margin-top: 2em;
 }
 
@@ -17,12 +18,32 @@ form.form:after {
   clear: both;
   visibility: hidden;
 }
+h1.ui.header{
+  font-size: 2.5rem;
+}
+
+.ui.header{
+  font-family: Roboto;
+}
+
+.ui.menu {
+  font-size: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 .votes {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #E6E6E6;
+  background-color: #00B5AD;
   padding: 1em 0;
   border-radius: 5px;
 }
@@ -47,4 +68,57 @@ ul.ui.list li:before {
   clear: both;
   width: 100%;
 }
+
+
+.ui.primary.button:hover {
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.1) inset,
+  2px 6px 28px -4px rgba(0, 0, 0, 0.39) !important
+;
+}
+
+.ui.secondary.button:hover {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2) inset,
+  0px 2px 3px 0px rgba(0, 0, 0, 0.3) !important
+;
+}
+
+/* Typing animation in css */
+
+  @-webkit-keyframes typing {
+    from { width: 0; height: 40px }
+    to { width:44.3em; height:40px }
+  }
+
+  @-moz-keyframes typing {
+    from { width: 0; height:40px }
+    to { width:44.3em; height:40px }
+  }
+
+  @-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+
+  @-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black  }
+  }
+
+  body { font-family:Roboto, monospace;
+    color: #00B5AD;
+  line-height: 2em}
+
+  .typing {
+    font-size:165%;
+    width:44.3em;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .05em solid #00B5AD;
+
+    -webkit-animation: typing 8s steps(192, end), /* # of steps = # of characters */
+    blink-caret 0.35s step-end infinite;
+    -moz-animation: typing 8s steps(192, end), /* # of steps = # of characters */
+    blink-caret 0.35s step-end infinite;
+  }
+
 

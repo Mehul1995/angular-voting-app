@@ -1,4 +1,4 @@
-<form class = "ui large form segment hover-shadow">
+<form class = "ui large form segment">
 <h2 class="ui header">Add a Link</h2>
 
   <div class="field blue">
@@ -11,7 +11,7 @@
     <input name="link" #newlink>
   </div>
   <button (click)="addArticle(newtitle,newlink)"
-    class="ui button positive right floated">
+    class="ui primary button right floated">
     Submit
   </button>
 </form>
@@ -22,4 +22,6 @@
   [article]="item">
   </app-article>
 </div>
+
+
 
