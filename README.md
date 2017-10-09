@@ -1,6 +1,6 @@
 # Angular-Voting-App
 
-**My first Angular App**
+# My first Angular App
 
 **A Sneak Peek into the application:**
 
@@ -11,7 +11,6 @@
 >```Title and link allow you to enter into the voting eligibility.```
 
 >```Based on the users votes, one with the highest votes snaps to the top. Allowing you to follow up with the highly liked resource.```
-
 
 **Major Upgrade to the application include:**
 
