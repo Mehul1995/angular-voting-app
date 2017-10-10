@@ -21,6 +21,6 @@
 
 **Screenshots:**
 
->```The First screenshot is a .gif file that showcases typing style in the browser. P.S: there was a frame drop for not giving the actual feel of the typing style.```
+>```The First screenshot is a .gif file that showcases typing style in the browser. P.S: there was a frame drop resulting for not displaying the actual feel of the typing style.```
 
 >```Remaining screenshots gives details on the application.```
