@@ -17,3 +17,8 @@
 >```Added Material design principles to enhance the User Experience.```
 
 >```For your convenience this app works with any device over the browser. Isn't that great enough? ;)``` 
+
+
+**Screenshots:**
+>```The First screenshot is a .gif file that showcases typing style in the browser. P.S: there was a frame drop for not giving the actual feel of the typing style.```
+>```Remaining screenshots gives details on the application.```
